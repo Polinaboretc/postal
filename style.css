@@ -1,0 +1,112 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    background-color:#ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.postcard{
+height: 400px;
+width: 600px;
+display: flex;
+flex-direction: row;
+box-shadow: 10px 10px 46px -3px rgba(96, 96, 96, 0.2);
+}
+
+.red-border{
+    border-style: solid;
+    border-width: 1px;
+    border-color: red;
+}
+
+.column1{
+    flex-grow: 1;
+}
+
+.divider{
+width: 1px;
+background-color: #a1a1a1;
+margin-top: 31px;
+margin-bottom: 31px;
+border-radius: 1px;
+}
+
+.column2{
+width: 50%;
+display: flex;
+flex-direction: column;
+}
+
+.c2-row1{
+height: 120px;
+display: flex;
+justify-content: flex-end;
+}
+
+.c2-row2{
+flex-grow: 1;
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+}
+
+.stamp{
+    width: 35%;
+    background-image: url(./assets/Francobollo-La-donna-nellarte-2014.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.c2-row2-line1{
+height: 30px;
+border-bottom: 1px solid #a1a1a1; 
+margin-left: 16px;
+margin-right: 16px;
+border-radius: 1px;
+}
+
+.c2-row2-line2{
+height: 30px;
+border-bottom: 1px solid #a1a1a1; 
+margin-left: 16px;
+margin-right: 16px;
+border-radius: 1px;
+}
+
+.c2-row2-line3{
+height: 30px;   
+border-bottom: 1px solid #a1a1a1; 
+margin-left: 16px;
+margin-right: 16px;
+border-radius: 1px;
+}
+
+.c2-row2-line4{
+height: 30px;   
+margin-bottom: 32px;
+border-bottom: 1px solid #a1a1a1; 
+margin-left: 16px;
+margin-right: 16px;
+border-radius: 1px;
+}
+
+.wrapper{
+height: 200px;
+display: flex;
+flex-wrap: wrap;
+}
+
+.item{
+flex-grow: 1;
+min-width: 300px;
+}
